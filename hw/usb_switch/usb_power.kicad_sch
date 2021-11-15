@@ -387,13 +387,12 @@
     )
   )
 
-
-  (junction (at 177.8 93.98) (diameter 0) (color 0 0 0 0))
-  (junction (at 172.72 93.98) (diameter 0) (color 0 0 0 0))
+  (junction (at 111.76 35.56) (diameter 0) (color 0 0 0 0))
   (junction (at 86.36 101.6) (diameter 0) (color 0 0 0 0))
+  (junction (at 172.72 93.98) (diameter 0) (color 0 0 0 0))
   (junction (at 109.22 88.9) (diameter 0) (color 0 0 0 0))
   (junction (at 121.92 53.34) (diameter 0) (color 0 0 0 0))
-  (junction (at 111.76 35.56) (diameter 0) (color 0 0 0 0))
+  (junction (at 177.8 93.98) (diameter 0) (color 0 0 0 0))
   (junction (at 86.36 88.9) (diameter 0) (color 0 0 0 0))
   (junction (at 165.1 93.98) (diameter 0) (color 0 0 0 0))
 
