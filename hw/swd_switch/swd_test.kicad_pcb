@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "Debugotron SWD Switch")
-    (date "2021-11-14")
+    (date "2022-01-16")
     (rev "1.0")
     (company "Quesadillon LLC")
   )
