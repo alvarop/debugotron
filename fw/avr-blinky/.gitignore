@@ -1,0 +1,8 @@
+build/
+.dep
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.sym
