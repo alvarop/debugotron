@@ -299,7 +299,7 @@
     (fp_line (start 5.72 5.1) (end 5.72 -10.18) (layer "B.Fab") (width 0.1) (tstamp e455eaaf-bf6d-4356-9b0d-71a8dbc0fbbe))
     (fp_line (start -1.98 -8.99) (end -1.98 -4.59) (layer "B.Fab") (width 0.1) (tstamp faa3995f-eccc-41e1-93eb-64bcc8e6c693))
     (fp_line (start -1.98 -4.59) (end -3.18 -4.59) (layer "B.Fab") (width 0.1) (tstamp fb7e4471-7d0a-4b54-9d7f-4a70282ec875))
-    (pad "1" thru_hole roundrect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad "1" thru_hole roundrect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235)
       (net 3 "/MISO") (pinfunction "MISO") (pintype "passive") (tstamp 5132a611-52df-4674-845c-3fe2b48b10d6))
     (pad "2" thru_hole circle (at 2.54 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "VBUS") (pinfunction "VCC") (pintype "passive") (tstamp d5cd1926-e091-4b39-8a80-31ea3f84bac4))
