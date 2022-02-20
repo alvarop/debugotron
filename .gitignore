@@ -8,3 +8,5 @@ _autosave*
 *auto_saved*
 *.csv
 *.xml
+*.pdf
+*.html
