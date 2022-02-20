@@ -99,6 +99,12 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    LL_GPIO_ResetOutputPin(LED1_GPIO_Port, LED1_Pin);
+    LL_GPIO_SetOutputPin(LED2_GPIO_Port, LED2_Pin);
+    HAL_Delay(500);
+    LL_GPIO_SetOutputPin(LED1_GPIO_Port, LED1_Pin);
+    LL_GPIO_ResetOutputPin(LED2_GPIO_Port, LED2_Pin);
+    HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
