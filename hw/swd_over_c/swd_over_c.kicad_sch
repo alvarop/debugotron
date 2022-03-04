@@ -6,8 +6,8 @@
 
   (title_block
     (title "Debugotron - SWD2USBC")
-    (date "2022-02-06")
-    (rev "1.1")
+    (date "2022-03-04")
+    (rev "1.2")
     (company "Quesadillon LLC")
   )
 
