@@ -6,8 +6,8 @@
 
   (title_block
     (title "Debugotron - SWD to USBC Programmer")
-    (date "2022-02-06")
-    (rev "1.1")
+    (date "2022-03-04")
+    (rev "1.2")
     (company "Quesadillon LLC")
   )
 
@@ -595,7 +595,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 36689604-08d6-4fdf-8e33-e52555cab89f)
   )
-  (label "MISO" (at 124.46 101.6 0)
+  (label "MISO" (at 124.46 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6b6d52e9-ac42-4566-ae72-5c6366eb47c8)
   )
@@ -603,7 +603,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9cb435e3-4b8c-4a09-9477-f79602040e30)
   )
-  (label "MOSI" (at 124.46 104.14 0)
+  (label "MOSI" (at 124.46 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bd853b66-4d24-42c4-a380-96067874e648)
   )
