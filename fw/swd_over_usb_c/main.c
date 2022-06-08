@@ -8,10 +8,10 @@
 #define CC2 PA5
 
 // Output CC1/CC2 Rpu's
-#define CC1_R1 PB0 // 10 kOhm
-#define CC1_R2 PB1 // 22 kOhm
-#define CC2_R1 PA1 // 22 kOhm
-#define CC2_R2 PA0 // 56 kOhm
+#define CC1_R2 PB1 // 10 kOhm
+#define CC1_R1 PB0 // 22 kOhm
+#define CC2_R2 PA0 // 22 kOhm
+#define CC2_R1 PA1 // 56 kOhm
 
 typedef enum {
     USB_500MA,
@@ -27,24 +27,24 @@ typedef enum {
 void set_usb_current(USBCurrent_t current) {
     switch(current) {
         case USB_500MA: {
-            PORTB |= _BV(CC1_R1);
-            PORTB &= ~_BV(CC1_R2);
-            PORTA |= _BV(CC2_R1);
-            PORTA &= ~_BV(CC2_R2);
+            PORTB |= _BV(CC1_R2);
+            PORTB &= ~_BV(CC1_R1);
+            PORTA |= _BV(CC2_R2);
+            PORTA &= ~_BV(CC2_R1);
             break;
         }
         case USB_1500MA: {
-            PORTB &= ~_BV(CC1_R1);
-            PORTB |= _BV(CC1_R2);
-            PORTA &= ~_BV(CC2_R1);
-            PORTA |= _BV(CC2_R2);
+            PORTB &= ~_BV(CC1_R2);
+            PORTB |= _BV(CC1_R1);
+            PORTA &= ~_BV(CC2_R2);
+            PORTA |= _BV(CC2_R1);
             break;
         }
         case USB_3000MA: {
-            PORTB |= _BV(CC1_R1);
-            PORTB &= ~_BV(CC1_R2);
-            PORTA &= ~_BV(CC2_R1);
-            PORTA |= _BV(CC2_R2);
+            PORTB |= _BV(CC1_R2);
+            PORTB &= ~_BV(CC1_R1);
+            PORTA &= ~_BV(CC2_R2);
+            PORTA |= _BV(CC2_R1);
             break;
         }
     }
@@ -90,8 +90,8 @@ USBCurrent_t get_cc_current(void) {
 int main(void)
 {
     // Set port B output 0 as output
-    DDRA = _BV(CC2_R1) | _BV(CC2_R2);
-    DDRB = _BV(CC1_R1) | _BV(CC1_R2);
+    DDRA = _BV(CC2_R2) | _BV(CC2_R1);
+    DDRB = _BV(CC1_R2) | _BV(CC1_R1);
 
     // ADC Enable with / 16 prescaler (62.5kHz)
     ADCSRA = (1 << ADEN) | 3;
