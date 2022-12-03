@@ -1425,9 +1425,9 @@
       ) (layer "B.SilkS") (width 0.01) (fill solid) (tstamp d5e9c401-5f0d-4c94-9af2-09ec4a583434))
   )
 
-  (gr_line (start 172.3 97.05) (end 172.3 98.85) (layer "B.SilkS") (width 0.2) (tstamp 362c00e2-aca8-426c-84b0-bf773c797490))
-  (gr_line (start 164.65 97.05) (end 164.65 102.7) (layer "B.SilkS") (width 0.2) (tstamp 7386d8b6-1b4a-441e-bda9-a5c54abddccf))
-  (gr_line (start 172.3 102.65) (end 172.3 100.8) (layer "B.SilkS") (width 0.2) (tstamp e20c9f85-9835-4b46-8ce7-f8e5bf33b129))
+  (gr_line (start 164.652 97.05) (end 164.652 98.85) (layer "B.SilkS") (width 0.2) (tstamp 362c00e2-aca8-426c-84b0-bf773c797490))
+  (gr_line (start 172.272 97.071) (end 172.272 102.721) (layer "B.SilkS") (width 0.2) (tstamp 7386d8b6-1b4a-441e-bda9-a5c54abddccf))
+  (gr_line (start 164.652 102.65) (end 164.652 100.8) (layer "B.SilkS") (width 0.2) (tstamp e20c9f85-9835-4b46-8ce7-f8e5bf33b129))
   (gr_line (start 170.65 94.4) (end 170.05 95) (layer "F.SilkS") (width 0.4) (tstamp 0bbbfd0d-b8e6-44a8-ad72-543e42feede1))
   (gr_line (start 170.65 94.4) (end 170.05 93.8) (layer "F.SilkS") (width 0.4) (tstamp 6c2f3ee6-d9dc-4675-8431-7413939f6840))
   (gr_line (start 166.15 94.4) (end 170.65 94.4) (layer "F.SilkS") (width 0.4) (tstamp 930ffc61-6393-46bf-a197-dac888c37a88))
